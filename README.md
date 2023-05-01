@@ -8,3 +8,10 @@
 
 # Soluzione
 
+Creiamo 4 sottoreti con subnetmask 255.255.255.192.
+
+Poi diamo un indirizzo IP a ognuna delle 4 porte del router.
+
+Per ogni sottorete mettiamo un server DHCP e un pc configurato dinamicamente.
+
+Infine una delle sottoreti mettiamo un server HTTP che conterra la pagina web e un server DNS che associa il dominio della pagina web con il suo indirzzo IP ed entrambi configurati staticamente.
